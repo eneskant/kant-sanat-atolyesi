@@ -19,7 +19,7 @@ a { color: inherit; }
 .skip-link:focus { top: 1rem; }
 .site-header { height: 94px; padding: 0 6.1vw; display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 5; border-bottom: 1px solid var(--line); }
 .brand { display: inline-flex; align-items: center; gap: 0; text-decoration: none; }
-.brand-logo { width: clamp(145px, 16vw, 190px); height: 80px; display: block; object-fit: cover; object-position: center; mix-blend-mode: multiply; }
+.brand-logo { width: clamp(145px, 16vw, 190px); height: 80px; display: block; object-fit: cover; object-position: center; filter: saturate(.72); }
 .site-nav { display: flex; align-items: center; gap: clamp(26px, 4vw, 58px); }
 .site-nav a, .footer-top { font-size: 12px; text-decoration: none; letter-spacing: .03em; }
 .site-nav a:not(.nav-cta):hover, .footer-top:hover, .text-link:hover { color: var(--clay); }

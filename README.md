@@ -28,6 +28,7 @@ Sadece ZIP’i indirip düzenlemek, değişiklikleri GitHub’a göndermez; yay�
 - `script.js`: küçük etkileşimler
 - `kant-sanati-logo.png`: atölye logosu
 - `CNAME`: özel alan adı ayarı
+- `ogrenci/`: öğrenci modülünün dosyaları
 
 ## Sitede yer alan bilgiler
 

@@ -1,26 +1,39 @@
-# Kant Sanat Atölyesi — Website
+# Kant Sanat Atölyesi — Web Sitesi
 
-Responsive, plain HTML/CSS/JavaScript site prepared for GitHub Pages.
+Karesi, Balıkesir’deki Kant Sanat Atölyesi için hazırlanmış mobil uyumlu, statik web sitesi. HTML, CSS ve JavaScript ile çalışır; bilgisayarda önizlemek için ek program gerekmez.
 
-## Publish with GitHub Pages
+## Proje dosyalarını indir
 
-1. Create a new **public** GitHub repository named `kant-sanat-atolyesi`.
-2. Add the contents of this folder to the repository's top level (`index.html`, `styles.css`, `script.js`).
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
-5. GitHub Pages will show the published address in the Pages settings after deployment.
+- [Proje dosyalarını ZIP olarak indir](https://github.com/eneskant/kant-sanat-atolyesi/archive/refs/heads/main.zip)
+- [GitHub deposunu aç](https://github.com/eneskant/kant-sanat-atolyesi)
 
-GitHub Pages can host public repositories on GitHub Free. The published site is public on the internet. This is a static site; WhatsApp, phone, and map links open their respective services.
+ZIP dosyasını bilgisayara indirip bir klasöre çıkar. Siteyi önizlemek için klasördeki `index.html` dosyasını tarayıcıda aç.
 
-## Update the site
+## Başka bilgisayarda çalışmaya devam et
 
-Edit `index.html` for content and `styles.css` for appearance, then commit and push the changes to `main`. GitHub Pages republishes the site automatically.
+Değişiklikleri GitHub’a geri göndermek ve siteyi güncel tutmak için:
 
-## Contact details currently included
+1. [GitHub Desktop’ı indir](https://desktop.github.com/) ve bu depoya erişimi olan GitHub hesabınla giriş yap.
+2. **File → Clone repository** menüsünden `eneskant/kant-sanat-atolyesi` deposunu seç.
+3. Depo klasörünü bilgisayarında istediğin yere kaydet.
+4. Dosyaları düzenleyip GitHub Desktop’ta değişiklikleri **Commit to main** ile kaydet, ardından **Push origin** düğmesine bas.
+5. GitHub Pages değişiklikleri otomatik yayımlar: [kantsanatolyesi.com](https://kantsanatolyesi.com).
 
-- Phone / WhatsApp: 0551 221 5268
-- Address: Toygar Mahallesi, 23094 Sokak No: 25B, Karesi / Balıkesir
-- Lessons and workshops: piano, violin, guitar, voice training, bağlama, visual arts (including charcoal, acrylic, and oil painting), punch workshop, and candle workshop.
+Sadece ZIP’i indirip düzenlemek, değişiklikleri GitHub’a göndermez; yayınlanan site de değişmez. Düzenlemeleri yayınlamak için GitHub Desktop ile depoyu klonlayıp eşitle.
 
-Age groups, schedule, and prices are intentionally omitted until the studio confirms them.
+## Dosyalar
 
+- `index.html`: sayfa metinleri ve içerik
+- `styles.css`: görünüm ve mobil düzen
+- `script.js`: küçük etkileşimler
+- `kant-sanati-logo.png`: atölye logosu
+- `CNAME`: özel alan adı ayarı
+
+## Sitede yer alan bilgiler
+
+- Telefon ve WhatsApp: 0551 221 5268
+- Adres: Kant Sanat Atölyesi, Toygar, 23094 Sokak 25B, 10100 Karesi/Balıkesir
+- Müzik: piyano, keman, gitar, çello, flüt, klarnet, ses eğitimi ve bağlama
+- Görsel sanatlar ve workshoplar: kara kalem, akrilik, yağlı boya, punch ve mum atölyeleri
+
+Yaş grupları, ders programı ve ücretler atölye tarafından henüz belirtilmediği için siteye eklenmemiştir.

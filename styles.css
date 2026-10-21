@@ -71,6 +71,17 @@ h2 { font-size: clamp(48px, 6vw, 78px); line-height: 1.04; }
 .color-strip span:nth-child(6) { background: #6a4243; }
 .color-strip span:nth-child(7) { background: #b77b57; }
 
+.press-section { padding-top: 96px; padding-bottom: 106px; background: #e9e3d8; }
+.press-content { margin: 42px 0 0 12%; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); align-items: center; gap: clamp(30px, 6vw, 84px); }
+.press-photo { min-width: 0; position: relative; display: block; overflow: hidden; background: #d7b486; box-shadow: 12px 13px 0 rgba(88, 57, 49, .09); }
+.press-photo::before { content: ""; position: absolute; z-index: 1; inset: 0; border: 1px solid rgba(83, 46, 54, .28); pointer-events: none; }
+.press-photo img { width: 100%; aspect-ratio: 4 / 3; display: block; object-fit: cover; transition: transform .35s; }
+.press-photo:hover img { transform: scale(1.025); }
+.press-photo-credit { position: absolute; right: 0; bottom: 0; left: 0; padding: 28px 15px 13px; color: #fffaf1; background: linear-gradient(transparent, rgba(38, 35, 33, .72)); font-size: 10px; letter-spacing: .04em; }
+.press-story h2 { margin: 0 0 20px; font-size: clamp(43px, 5vw, 66px); }
+.press-story > p:not(.eyebrow) { max-width: 410px; margin: 0 0 22px; color: #625b54; font-size: 14px; line-height: 1.9; }
+.press-story .eyebrow { margin-bottom: 14px; }
+
 .program-section { padding-top: 96px; padding-bottom: 112px; background: #e9e3d8; }
 .program-heading { margin: 40px 0 44px 12%; display: flex; justify-content: space-between; align-items: end; gap: 7vw; }
 .program-heading h2 { font-size: clamp(47px, 5.4vw, 70px); }
@@ -141,7 +152,7 @@ h2 { font-size: clamp(48px, 6vw, 78px); line-height: 1.04; }
   .hero-art { height: 53vw; min-height: 360px; }
   .section-wrap { padding-left: 7vw; padding-right: 7vw; }
   .intro-content, .address-content { margin-left: 5%; gap: 5vw; }
-  .program-heading, .program-grid { margin-left: 5%; }
+  .program-heading, .program-grid, .press-content { margin-left: 5%; }
   .visit-copy { padding-right: 6vw; padding-left: 6vw; }
 }
 @media (max-width: 680px) {
@@ -171,7 +182,11 @@ h2 { font-size: clamp(48px, 6vw, 78px); line-height: 1.04; }
   .intro-side { margin-top: 25px; }
   .intro-side p { font-size: 13px; }
   .color-strip { margin: 41px 0 0; gap: 3px; }
-  .program-section { padding-top: 73px; padding-bottom: 78px; }
+  .press-section { padding-top: 72px; padding-bottom: 76px; }
+  .press-content { margin: 33px 0 0; grid-template-columns: 1fr; gap: 30px; }
+  .press-photo img { aspect-ratio: 4 / 3; }
+  .press-story h2 { font-size: clamp(45px, 11vw, 60px); }
+  .press-section + .program-section { padding-top: 73px; padding-bottom: 78px; }
   .program-heading { margin: 34px 0 29px; display: block; }
   .program-heading h2 { font-size: clamp(48px, 12vw, 64px); }
   .program-intro { margin-top: 18px; }

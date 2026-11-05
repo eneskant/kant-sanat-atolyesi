@@ -234,3 +234,25 @@ h2 { font-size: clamp(48px, 6vw, 78px); line-height: 1.04; }
   .gallery-card, .gallery-card img { min-height: 0; }
   .gallery-card img { aspect-ratio: 4 / 3; }
 }
+
+.pumpkin-workshop { margin-top: 84px; }
+.pumpkin-heading { margin: 0 0 30px 12%; display: flex; justify-content: space-between; align-items: end; gap: 6vw; }
+.pumpkin-heading .eyebrow { margin-bottom: 12px; }
+.pumpkin-heading h3 { margin: 0; font: 500 clamp(34px, 4vw, 52px)/1.1 var(--serif); letter-spacing: -.035em; }
+.pumpkin-heading h3 em { color: var(--clay); }
+.pumpkin-heading > p { max-width: 330px; margin: 0 0 4px; color: #625b54; font-size: 13px; line-height: 1.85; }
+.pumpkin-grid { margin-left: 12%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.pumpkin-card { height: clamp(220px, 22vw, 320px); min-height: 0; }
+.pumpkin-card img { height: 100%; min-height: 0; aspect-ratio: auto; }
+@media (max-width: 900px) {
+  .pumpkin-heading, .pumpkin-grid { margin-left: 5%; }
+  .pumpkin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 680px) {
+  .pumpkin-workshop { margin-top: 60px; }
+  .pumpkin-heading { margin: 0 0 23px; display: block; }
+  .pumpkin-heading h3 { font-size: clamp(34px, 9vw, 45px); }
+  .pumpkin-heading > p { margin-top: 13px; }
+  .pumpkin-grid { margin: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .pumpkin-card { height: 43vw; min-height: 150px; }
+}
